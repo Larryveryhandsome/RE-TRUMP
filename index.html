@@ -1,0 +1,1542 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>川普關稅戰對全球經濟與台灣的影響 - 房產課程整理</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft JhengHei', 'PingFang TC', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .nav {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #667eea;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background: #f8f9ff;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .nav a:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .section {
+            background: white;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            position: relative;
+        }
+
+        .section-header h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .section-header .subtitle {
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+
+        .section-content {
+            padding: 25px;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-left: 5px solid #ff6b6b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .data-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .data-table tr:hover {
+            background: #f8f9ff;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #667eea;
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9ff;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -22px;
+            top: 20px;
+            width: 12px;
+            height: 12px;
+            background: #667eea;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .timeline-date {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .impact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .impact-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .impact-list li::before {
+            content: '📌';
+            position: absolute;
+            left: 0;
+            top: 10px;
+        }
+
+        .strategy-box {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            border: 2px solid #667eea;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .strategy-box h4 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+
+        .conclusion {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .conclusion h3 {
+            color: #d63031;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        @media (max-width: 768px) {
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📘 川普關稅戰對全球經濟與台灣的影響</h1>
+            <p>房產課程完整整理 - 深度解析與實戰策略</p>
+        </div>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#overview">全球經濟事件</a></li>
+                <li><a href="#tariff-impact">關稅影響分析</a></li>
+                <li><a href="#trump-goals">川普戰略目標</a></li>
+                <li><a href="#international-relations">國際關係</a></li>
+                <li><a href="#taiwan-impact">台灣影響</a></li>
+                <li><a href="#real-estate">房市分析</a></li>
+                <li><a href="#strategies">實戰策略</a></li>
+                <li><a href="#legal-battle">法律戰</a></li>
+                <li><a href="#public-opinion">民意反彈</a></li>
+                <li><a href="#trump-challenges">川普挑戰</a></li>
+            </ul>
+        </nav>
+
+        <section id="overview" class="section">
+            <div class="section-header">
+                <h2>🌍 全球最重要的經濟事件：川普關稅戰</h2>
+                <div class="subtitle">核心訴求與目標分析</div>
+            </div>
+            <div class="section-content">
+                <div class="highlight-box">
+                    <h3>📌 川普的核心訴求：</h3>
+                    <ul class="impact-list">
+                        <li><strong>想要什麼？</strong> 👉 製造業回流美國</li>
+                        <li><strong>目標能否實現？</strong> 👉 關稅只是手段，政治效果高於經濟實效</li>
+                        <li><strong>對台灣的影響？</strong> 👉 關稅 + 台幣升值 = 雙重壓力（出口不利）</li>
+                        <li><strong>未來走向？</strong> 👉 須觀察美國政局與全球供應鏈重組</li>
+                    </ul>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">第8名</div>
+                        <div class="stat-label">台灣在美國進口國排名</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4.0%</div>
+                        <div class="stat-label">台灣佔美國進口比重</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3296億</div>
+                        <div class="stat-label">川普10%關稅預估年收入（美元）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1.9兆</div>
+                        <div class="stat-label">2025預估美國財政赤字（美元）</div>
+                    </div>
+                </div>
+
+                <p><strong>結論：</strong>關稅收入無法還債，更多是政治手段而非經濟實效。</p>
+            </div>
+        </section>
+
+        <section id="tariff-impact" class="section">
+            <div class="section-header">
+                <h2>💰 關稅是手段也是目的</h2>
+                <div class="subtitle">2024年美國前15大進口國分析</div>
+            </div>
+            <div class="section-content">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>排名</th>
+                            <th>國家</th>
+                            <th>進口比重</th>
+                            <th>關稅影響</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>中國</td>
+                            <td>最大進口來源</td>
+                            <td>34% + 50% 對等關稅</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>墨西哥</td>
+                            <td>第二大進口來源</td>
+                            <td>10% 基本關稅</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td><strong>台灣</strong></td>
+                            <td><strong>4.0%</strong></td>
+                            <td><strong>10% 關稅 + 台幣升值13.8%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight-box">
+                    <h3>🔺 關鍵影響：</h3>
+                    <p>台灣面臨<strong>雙重壓力</strong>：關稅增加出口成本 + 台幣升值降低競爭力</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="trump-goals" class="section">
+            <div class="section-header">
+                <h2>🎯 川普的戰略目標</h2>
+                <div class="subtitle">想得到的三件事</div>
+            </div>
+            <div class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">🏭</div>
+                        <div class="stat-label">製造業回流美國<br>（Make in USA）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">💪</div>
+                        <div class="stat-label">提升出口競爭力<br>（藉貶值促銷）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">💵</div>
+                        <div class="stat-label">穩定國債與美元<br>（金融主導）</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>❌ 川普目標容易達成嗎？</h3>
+                    <h4>面臨三大壓力：</h4>
+                    <ul class="impact-list">
+                        <li><span class="emoji">💣</span> <strong>美債壓力：</strong>債務規模持續擴張，恐面臨違約風險</li>
+                        <li><span class="emoji">🏛</span> <strong>國內壓力：</strong>民主、共和兩黨在預算、關稅等政策上意見分歧</li>
+                        <li><span class="emoji">🌐</span> <strong>國際談判情勢：</strong>各國反彈／對抗策略加劇貿易談判難度</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="international-relations" class="section">
+            <div class="section-header">
+                <h2>🌍 國際關係發展</h2>
+                <div class="subtitle">各國對川普關稅政策的反應</div>
+            </div>
+            <div class="section-content">
+                <h3>📅 重大事件時間軸</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/28</div>
+                        <div>美國聯邦法院裁定關稅違法，根據IEEPA法（1977年），川普大規模課稅被判違憲</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/29</div>
+                        <div>白宮上訴，繼續爭取關稅合法性</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/30</div>
+                        <div>上訴法院暫緩裁決，暫時仍可徵稅，但最終恐進入最高法院裁決階段</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/9</div>
+                        <div><strong>唯一談成國家！</strong>英美達成貿易協議</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/02</div>
+                        <div>川普發動對等關稅攻勢</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/09</div>
+                        <div>歐盟談判成功爭取延長90天寬限期</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/06</div>
+                        <div>歐盟備妥1000億歐元報復性關稅清單</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/12</div>
+                        <div>川普批評歐盟「比中國更惡劣」</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/25</div>
+                        <div>川普揚言對歐洲商品課50%關稅，並同日宣布</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/17</div>
+                        <div>歐盟拒絕10%為基礎門檻，談判陷入僵局</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/18</div>
+                        <div>川普稱歐盟「不誠意、不配合」，強硬施壓</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">7/09</div>
+                        <div>談判寬限期屆滿（關稅可能全面啟動）</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>🇪🇺 歐盟拒絕讓步，川普對歐關稅談判進度緩慢</h3>
+                    <h4>📌 新聞重點：</h4>
+                    <ul class="impact-list">
+                        <li>歐盟代表強調：「10%不是起點」，無法接受美方片面制定的條件</li>
+                        <li>川普不願退讓，批評歐盟、日本制度「太強硬、不公平」</li>
+                        <li>歐盟恐面臨出口商品大幅受限，尤其是汽車與高科技設備</li>
+                    </ul>
+                </div>
+
+                <h3>🇯🇵 日本堅守立場，拒絕讓步！</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/02</div>
+                        <div>川普發動對等關稅，針對日本汽車與科技產品</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/09</div>
+                        <div>爭取到90天寬限期</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/16～6/17</div>
+                        <div>進行長達兩個月的美日關稅談判</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/18</div>
+                        <div>川普公開批評日本「誠意不足」</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/18</div>
+                        <div>日本首相石破茂聲明：「絕不犧牲國家利益以達成協議」</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/21</div>
+                        <div>傳出日方取消7/1原訂2+2會談（外交＋國防高層對話）</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">7/09</div>
+                        <div>寬限期屆滿，美日貿易緊張升溫臨界點</div>
+                    </div>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>📌 日本新聞重點摘要：</h4>
+                    <ul class="impact-list">
+                        <li>美國以「不滿防衛支出不足」為由，向日本施壓要求提高至GDP 3.5%</li>
+                        <li>日本拒絕無條件讓步，明言若無實質互利條件，寧願取消會談</li>
+                        <li>國防、安全、貿易三面皆對抗，美日聯盟穩定性面臨考驗</li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>🇨🇳 中國態度強硬，積極反制美國！</h4>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>原採購國（美國）</th>
+                                <th>進口商品</th>
+                                <th>中國轉向採購國</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>美國</td>
+                                <td>大豆</td>
+                                <td>巴西</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>玉米</td>
+                                <td>阿根廷</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>豬肉</td>
+                                <td>西班牙</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>牛肉</td>
+                                <td>澳洲</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>天然氣</td>
+                                <td>俄羅斯</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>石油</td>
+                                <td>加拿大</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>汽車</td>
+                                <td>歐洲</td>
+                            </tr>
+                            <tr>
+                                <td>美國</td>
+                                <td>飛機</td>
+                                <td>歐洲</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>📅 中美貿易談判重大事件時間軸</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/02</div>
+                        <div>美國對中國課徵 34% + 50% 對等關稅（起戰點）</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/09</div>
+                        <div>互相加徵關稅（衝突升溫）</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/12</div>
+                        <div>中對美部分商品課稅升至 84～125%</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">4/15</div>
+                        <div>美對中部分產品課稅升至 245%</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/12</div>
+                        <div>雙方啟動休戰談判，暫緩90天</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/05</div>
+                        <div>川普與習近平通話</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/10</div>
+                        <div>框架協議成立，第一輪談判結束</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/11</div>
+                        <div>美放寬部分中國稀土限制；中鬆綁晶片管制</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">6/26</div>
+                        <div>雙方再次宣布達成協議（含稀土加快出口）</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">8/10</div>
+                        <div>協議談判最終截止日，將決定是否再升溫</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>📰 新聞亮點摘要：</h3>
+                    <ul class="impact-list">
+                        <li>哈薩特委員會指出：若中國加快釋放稀土，美方將放鬆晶片出口限制</li>
+                        <li>換句話說，這是一場「稀土 vs 晶片」的戰略談判</li>
+                        <li>然而美方仍拒絕解除稀土在軍用產品的管制</li>
+                        <li>雙方協議仍有高風險變數</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>🧲 美國8成稀土依賴中國！</h3>
+                    <ul class="impact-list">
+                        <li>中國擁有全球60%稀土存量</li>
+                        <li>中國掌握全球90%的稀土加工技術</li>
+                        <li>美國進口稀土中，83.7%來自中國</li>
+                        <li>若中國限制出口稀土，美軍先進戰機恐延後3～5年研發</li>
+                        <li>97%以上高階精密設備稀土依賴中國供應</li>
+                    </ul>
+                </div>
+
+                <h3>📊 稀土應用四大關鍵產業</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>產業</th>
+                            <th>用途範例</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>🚗 汽車產業</td>
+                            <td>馬達、轉向系統、鋰電池等</td>
+                        </tr>
+                        <tr>
+                            <td>💻 半導體產業</td>
+                            <td>晶片製程設備、微機電</td>
+                        </tr>
+                        <tr>
+                            <td>📱 電子消費產品</td>
+                            <td>手機、電視、電腦設備</td>
+                        </tr>
+                        <tr>
+                            <td>🛡 國防軍工產業</td>
+                            <td>戰機、導彈、雷達、航太裝備</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="taiwan-impact" class="section">
+            <div class="section-header">
+                <h2>🇹🇼 對台灣的具體影響</h2>
+                <div class="subtitle">雙重衝擊分析</div>
+            </div>
+            <div class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">13.8%</div>
+                        <div class="stat-label">台幣升值幅度<br>（從33元升至29元）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10%</div>
+                        <div class="stat-label">台灣產品面臨關稅</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8000億</div>
+                        <div class="stat-label">壽險業損失金額<br>（台幣）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">80.3%</div>
+                        <div class="stat-label">預售屋交易量年減</div>
+                    </div>
+                </div>
+
+                <h3>📊 2024年出口至美國產業金額統計（億美元）</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>台灣產業類別</th>
+                            <th>出口美國金額</th>
+                            <th>關稅衝擊</th>
+                            <th>匯率衝擊</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>電子資訊（不含半導體）</td>
+                            <td>718億</td>
+                            <td>關稅衝擊</td>
+                            <td>3168億（匯率衝擊）</td>
+                        </tr>
+                        <tr>
+                            <td>機械</td>
+                            <td>49億</td>
+                            <td>關稅</td>
+                            <td>204億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>鋼鐵金屬</td>
+                            <td>76億</td>
+                            <td>關稅</td>
+                            <td>304億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>汽車零組件與自行車</td>
+                            <td>53億</td>
+                            <td>關稅</td>
+                            <td>147億（匯率）</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight-box">
+                    <h3>🔊 重要結論：</h3>
+                    <p><strong>「匯率升值的影響遠大於關稅本身！」</strong></p>
+                    <p>不論是否框架協議達成，台灣仍持續面臨：</p>
+                    <ul class="impact-list">
+                        <li>出口利潤壓縮</li>
+                        <li>外銷接單轉單壓力</li>
+                        <li>半導體、電子製造業動能波動風險</li>
+                    </ul>
+                </div>
+
+                <h3>💰 台幣升值！壽險業慘賠高達 8000 億元！</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">4元</div>
+                        <div class="stat-label">台幣升值幅度<br>（從年初33元→6/27升至29元）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2000億</div>
+                        <div class="stat-label">台幣升值1元損失<br>（約2000億元）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">8000億</div>
+                        <div class="stat-label">總損失金額<br>（升值4元×2000億）</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>📌 根據2025/5/28 經濟日報報導與金管會主委彭金隆說明：</h4>
+                    <ul class="impact-list">
+                        <li>台幣升值幅度：從年初 1 美元 = 33 元 → 6/27 升至 29 元（升值 4 元）</li>
+                        <li>影響原理：壽險業大量持有以美元計價資產，一旦台幣升值，資產價值在帳面縮水</li>
+                        <li>影響金額：台幣升值 1 元，損失約 2000 億元 → 升值 4 元即損失 8000 億元！</li>
+                        <li>壽險業持有海外資產 37 兆元，約 62% 無避險、處於開放部位，因此面對升值劇烈受損</li>
+                    </ul>
+                </div>
+
+                <h3>📊 完整產業影響統計（億美元）</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>台灣產業類別</th>
+                            <th>出口美國金額</th>
+                            <th>關稅衝擊</th>
+                            <th>匯率衝擊</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>電子資訊（不含半導體）</td>
+                            <td>718億</td>
+                            <td>關稅衝擊</td>
+                            <td>3168億（匯率衝擊）</td>
+                        </tr>
+                        <tr>
+                            <td>機械</td>
+                            <td>49億</td>
+                            <td>關稅</td>
+                            <td>204億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>鋼鐵金屬</td>
+                            <td>76億</td>
+                            <td>關稅</td>
+                            <td>304億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>重機與電線電纜</td>
+                            <td>32億</td>
+                            <td>關稅</td>
+                            <td>82億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>汽車零組件與自行車</td>
+                            <td>53億</td>
+                            <td>關稅</td>
+                            <td>147億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>塑膠/橡膠</td>
+                            <td>53億</td>
+                            <td>關稅</td>
+                            <td>257億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>生技醫藥</td>
+                            <td>36億</td>
+                            <td>關稅</td>
+                            <td>43億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>一般化學</td>
+                            <td>10億</td>
+                            <td>關稅</td>
+                            <td>100億（匯率）</td>
+                        </tr>
+                        <tr>
+                            <td>家電</td>
+                            <td>4.6億</td>
+                            <td>關稅</td>
+                            <td>19億（匯率）</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="real-estate" class="section">
+            <div class="section-header">
+                <h2>🏠 房市影響分析</h2>
+                <div class="subtitle">關稅戰對台灣房市的衝擊</div>
+            </div>
+            <div class="section-content">
+                <h3>🏗️ 關貿戰間接影響房市！建商、代銷風險升溫</h3>
+                <div class="highlight-box">
+                    <h4>📌 根據《經濟日報》兩篇報導（2025年4月）：</h4>
+                    <h5>1️⃣ 【建商避風頭】：</h5>
+                    <ul class="impact-list">
+                        <li>2025年第一季全台個案戶數寫下歷史次低</li>
+                        <li>建商傾向觀望，不積極推案</li>
+                        <li>主因：資金成本高漲、外部局勢不確定</li>
+                    </ul>
+                    <h5>2️⃣ 【代銷預售案風險高】：</h5>
+                    <ul class="impact-list">
+                        <li>貿易戰造成股市動盪 → 資金轉移困難</li>
+                        <li>成交冷 → 預售轉換斷頭風險提高</li>
+                        <li>尤其在股市重挫、預售成交轉弱情況下，代銷風險放大</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>📉 結論：</h4>
+                    <p>關貿戰影響不只製造業，房市亦受牽動，代銷、建設端首當其衝</p>
+                </div>
+                <h3>📉 預售屋市場重創</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">3,316</div>
+                        <div class="stat-label">2025年4月交易量（件）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">16,803</div>
+                        <div class="stat-label">2024年4月交易量（件）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">80.3%</div>
+                        <div class="stat-label">年減幅度</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">4個月</div>
+                        <div class="stat-label">連續低於5,000件</div>
+                    </div>
+                </div>
+
+                <h3>🏙 七都預售屋與中古屋單價比較</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>縣市</th>
+                            <th>單價2024前4月</th>
+                            <th>單價2025前4月</th>
+                            <th>房價漲幅</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>台北市</td>
+                            <td>120.2萬/坪</td>
+                            <td>121.6萬/坪</td>
+                            <td>1.2% ↑</td>
+                        </tr>
+                        <tr>
+                            <td>新北市</td>
+                            <td>59.8萬/坪</td>
+                            <td>71.8萬/坪</td>
+                            <td>20.1% ↑</td>
+                        </tr>
+                        <tr>
+                            <td>桃園市</td>
+                            <td>38.9萬/坪</td>
+                            <td>39.2萬/坪</td>
+                            <td>0.8% ↑</td>
+                        </tr>
+                        <tr>
+                            <td>台中市</td>
+                            <td>45.5萬/坪</td>
+                            <td>53.7萬/坪</td>
+                            <td>18.0% ↑</td>
+                        </tr>
+                        <tr>
+                            <td>高雄市</td>
+                            <td>36.0萬/坪</td>
+                            <td>40.4萬/坪</td>
+                            <td>12.2% ↑</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="highlight-box">
+                    <h3>🔍 觀察重點：</h3>
+                    <p>預售屋數量創歷史新低，但房價仍持續上漲（尤其是新北、台中、高雄）</p>
+                    <p>代表價格脫離真實成交動能，預售價格有掛高現象</p>
+                </div>
+
+                <h3>📊 股市 vs 房市波動趨勢整理</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>年份</th>
+                            <th>台北市房價</th>
+                            <th>台股跌幅</th>
+                            <th>重大事件</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2008年</td>
+                            <td>房價 -12.8%</td>
+                            <td>台股 -57%</td>
+                            <td>金融海嘯</td>
+                        </tr>
+                        <tr>
+                            <td>2020年</td>
+                            <td>房價 +35.6%</td>
+                            <td>台股 -30%</td>
+                            <td>新冠疫情全球恐慌</td>
+                        </tr>
+                        <tr>
+                            <td>2022年</td>
+                            <td>-</td>
+                            <td>台股 -32%</td>
+                            <td>聯準會升息、俄烏戰爭</td>
+                        </tr>
+                        <tr>
+                            <td>2025年（預期）</td>
+                            <td>房價微幅調整中</td>
+                            <td>台股修正中</td>
+                            <td>美國對等關稅</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="strategy-box">
+                    <h4>💡 投資觀點</h4>
+                    <ul class="impact-list">
+                        <li>長期持有房地產，波動小於股市，報酬較穩健</li>
+                        <li>遇到股災時是進場佈局房地產的好時機</li>
+                        <li>房市調控政策只會短期降溫，長期上升趨勢仍在</li>
+                    </ul>
+                </div>
+
+                <h3>🏦 央行房市政策是否持續？</h3>
+                <div class="highlight-box">
+                    <h4>📌 解析一：</h4>
+                    <ul class="impact-list">
+                        <li>總裁認為：交易降溫、房價漲勢趨緩、非自住購屋貸款比重上升</li>
+                        <li>不動產貸款增速放緩，集中度下降</li>
+                        <li>結論：房市降溫，第七波信用管制成效已現</li>
+                    </ul>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>📌 解析二：</h4>
+                    <ul class="impact-list">
+                        <li>央行採取漸進觀察與審慎決策原則</li>
+                        <li>暫不考慮第八波信用管制，除非指標異常上揚或房價波動加劇</li>
+                        <li>結論：政策將觀察後再決定，動態調整，不輕易出手</li>
+                    </ul>
+                </div>
+
+                <h3>📈 房市網路熱度回升，市場正醞釀反彈</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">79</div>
+                        <div class="stat-label">2024/11谷底<br>（基期：2024年1月=100）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">135</div>
+                        <div class="stat-label">2025/03高點<br>（約70%漲幅）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">110</div>
+                        <div class="stat-label">2025/05穩定<br>（回調後整理）</div>
+                    </div>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>🔍 圖表解讀：</h4>
+                    <h5>下降階段（2024/07～2024/10）：</h5>
+                    <ul class="impact-list">
+                        <li>房價緊縮新聞曝光（93）</li>
+                        <li>第七波房市管制措施（87）</li>
+                        <li>跌至谷底：79（2024/11）</li>
+                    </ul>
+                    <h5>反彈階段（2024/11～2025/05）：</h5>
+                    <ul class="impact-list">
+                        <li>明顯回升：2024/11的79 → 2025/03的135（約70%漲幅）</li>
+                        <li>原因：低基期後自然反彈 + 4/2宣布對等關稅激起關注 + 5/12美中關稅緩衝期</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="strategies" class="section">
+            <div class="section-header">
+                <h2>🎯 實戰策略建議</h2>
+                <div class="subtitle">房仲業操作策略與話術</div>
+            </div>
+            <div class="section-content">
+                <h3>💡 潛在商機建議</h3>
+                <div class="strategy-box">
+                    <h4>✅ 策略一：製造比較優勢</h4>
+                    <ul class="impact-list">
+                        <li>尋找屋齡3～5年內屋況佳物件</li>
+                        <li>以低於區域預售價5～10%的成交價進行市場宣傳</li>
+                        <li>製造「買到賺到」的認知落差</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>✅ 策略二：卡位信心盤</h4>
+                    <ul class="impact-list">
+                        <li>消費者雖觀望，但預售戶高不可攀，中古屋若條件優、價差明確，反而更快成交</li>
+                        <li>可強調「即買即住／免等2年／免交屋風險」</li>
+                    </ul>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>✅ 策略三：轉售預售／新成屋</h4>
+                    <ul class="impact-list">
+                        <li>預售轉售（紅單）與新成屋轉售，若壓在目前成交單價之下，即是具吸引力價位</li>
+                    </ul>
+                </div>
+
+                <h3>🗣 行銷對話建議</h3>
+                <div class="highlight-box">
+                    <h4>對買方（創造急迫感）：</h4>
+                    <p>「你看，現在看屋量雖然不像前幾個月那麼爆量，但其實還在高點上，這時候是議價空間比較大的時候，等下一波再漲，價錢就談不動了。」</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>對屋主（刺激出售意願）：</h4>
+                    <p>「現在預售市場高檔，新成屋與中古屋價格差拉大，買方開始流向中古，你的物件如果趁現在推，剛好能搭上這波剛回溫的買氣。」</p>
+                </div>
+
+                <h3>📊 成交議價率分析</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">70.7%</div>
+                        <div class="stat-label">議價率9%以上交易占比<br>（2025年4-5月）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">30.5%</div>
+                        <div class="stat-label">議價率15%以上交易占比</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">117.8%</div>
+                        <div class="stat-label">高議價率產品占比成長</div>
+                    </div>
+                </div>
+
+                <p><strong>趨勢：</strong>買方殺價力道加強，低議價成交量明顯下滑。</p>
+
+                <h3>🏡 全台中古屋委售量變化分析</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">33.9%</div>
+                        <div class="stat-label">全台平均成長率<br>（2025年5月 vs 6月）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">49.2%</div>
+                        <div class="stat-label">台南市最高成長率</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">19.4%</div>
+                        <div class="stat-label">台北市最低成長率</div>
+                    </div>
+                </div>
+
+                <h3>📊 縣市別委售量成長率</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>地區</th>
+                            <th>成長率</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>台北市</td>
+                            <td>+19.4%（最低）</td>
+                        </tr>
+                        <tr>
+                            <td>新北市</td>
+                            <td>+30.6%</td>
+                        </tr>
+                        <tr>
+                            <td>桃園市</td>
+                            <td>+40.4%</td>
+                        </tr>
+                        <tr>
+                            <td>新竹縣市</td>
+                            <td>+43.4%</td>
+                        </tr>
+                        <tr>
+                            <td>台中市</td>
+                            <td>+41.0%</td>
+                        </tr>
+                        <tr>
+                            <td>台南市</td>
+                            <td>+49.2%（最高）</td>
+                        </tr>
+                        <tr>
+                            <td>高雄市</td>
+                            <td>+39.2%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="strategy-box">
+                    <h4>🧩 解讀與趨勢推估：</h4>
+                    <h5>🟥 1. 為什麼委售量暴增？</h5>
+                    <ul class="impact-list">
+                        <li>房價高點＋利多消息帶動屋主信心，紛紛出籠</li>
+                        <li>投資客與長抱型屋主選擇出場觀望，導致供給端急增</li>
+                    </ul>
+                    <h5>🟨 2. 為什麼說「增幅收斂」？</h5>
+                    <ul class="impact-list">
+                        <li>雖然持續增長，但相比去年同期成長更小</li>
+                        <li>也暗示「賣壓集中在上半年」，未來幾個月可能平穩或略降</li>
+                    </ul>
+                    <h5>🟩 3. 對你操作的啟示？</h5>
+                    <ul class="impact-list">
+                        <li>若你是買方經紀人：現在物件多、議價空間大，要衝刺成交</li>
+                        <li>若你是賣方經紀人：要快速回應市場，盡早主動出擊成交，不然就要跟市場比耐性了</li>
+                    </ul>
+                </div>
+
+                <h3>🗣 進階話術建議</h3>
+                <div class="highlight-box">
+                    <h4>對買方（創造急迫感）：</h4>
+                    <p>「現在物件很多，屋主願意談，而且我們看到市場供給已經逐漸趨於飽和，等買方再多一點，屋主信心起來，就不會那麼好談了。」</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>對屋主（刺激出售意願）：</h4>
+                    <p>「最近釋出物件很多，競爭越來越激烈，現在沒搶先布局，可能一兩個月後就要跟價格下來的屋主硬拼了。」</p>
+                </div>
+
+                <h3>📊 看屋諮詢量變化分析</h3>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>時間區段</th>
+                            <th>看屋諮詢指數變化</th>
+                            <th>解讀</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024/03～2024/07</td>
+                            <td>從147 → 118 明顯下降</td>
+                            <td>房價緊縮新聞+媒體大量爆料，引發觀望氣氛</td>
+                        </tr>
+                        <tr>
+                            <td>2024/08～2024/11</td>
+                            <td>92 → 73 持續探底</td>
+                            <td>政策管制、利空接連壓制買方信心</td>
+                        </tr>
+                        <tr>
+                            <td>2024/12～2025/03</td>
+                            <td>73 → 126 強力反彈</td>
+                            <td>新聞與國際關稅政策推升市場熱度，買方重新出動看屋</td>
+                        </tr>
+                        <tr>
+                            <td>2025/04～2025/05</td>
+                            <td>126 → 110 微幅回調後穩定</td>
+                            <td>拉回整理，買氣仍在水位之上</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="strategy-box">
+                    <h4>🎯 操作策略：善用「落底後反彈」階段的窗口</h4>
+                    <p><strong>🟢 現在（2025年5月）：</strong></p>
+                    <ul class="impact-list">
+                        <li>買氣尚未過熱，正處於回溫整理期</li>
+                        <li>有空間談價、有買家在觀望，只要用對策略就會成交</li>
+                    </ul>
+                </div>
+
+                <h3>🔮 房市實戰推估（結合「瀏覽量 + 看屋諮詢量」）</h3>
+                <div class="highlight-box">
+                    <h4>📊 關鍵觀察重點：</h4>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>時間區段</th>
+                                <th>看屋諮詢指數變化</th>
+                                <th>解讀</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2024/03～2024/07</td>
+                                <td>從147 → 118 明顯下降</td>
+                                <td>房價緊縮新聞+媒體大量爆料，引發觀望氣氛</td>
+                            </tr>
+                            <tr>
+                                <td>2024/08～2024/11</td>
+                                <td>92 → 73 持續探底</td>
+                                <td>政策管制、利空接連壓制買方信心</td>
+                            </tr>
+                            <tr>
+                                <td>2024/12～2025/03</td>
+                                <td>73 → 126 強力反彈</td>
+                                <td>新聞與國際關稅政策推升市場熱度，買方重新出動看屋</td>
+                            </tr>
+                            <tr>
+                                <td>2025/04～2025/05</td>
+                                <td>126 → 110 微幅回調後穩定</td>
+                                <td>拉回整理，買氣仍在水位之上</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="strategy-box">
+                    <h4>🎯 操作策略：善用「落底後反彈」階段的窗口</h4>
+                    <p><strong>🟢 現在（2025年5月）：</strong></p>
+                    <ul class="impact-list">
+                        <li>買氣尚未過熱，正處於回溫整理期</li>
+                        <li>有空間談價、有買家在觀望，只要用對策略就會成交</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="legal-battle" class="section">
+            <div class="section-header">
+                <h2>⚖️ 川普關稅政策進入法律長期對抗戰</h2>
+                <div class="subtitle">法律戰與政策合法性爭議</div>
+            </div>
+            <div class="section-content">
+                <h3>📅 法律戰重大事件時間軸</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/28</div>
+                        <div>美國聯邦法院裁定關稅違法，根據IEEPA法（1977年），川普大規模課稅被判違憲</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/29</div>
+                        <div>白宮上訴，繼續爭取關稅合法性</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">5/30</div>
+                        <div>上訴法院暫緩裁決，暫時仍可徵稅，但最終恐進入最高法院裁決階段</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>🔺 代表什麼？</h3>
+                    <ul class="impact-list">
+                        <li>關稅政策未來將受法律牽制，政治對抗轉向法庭戰爭</li>
+                        <li>極可能出現「政策無效化」、「企業追溯損害賠償」等風險</li>
+                    </ul>
+                </div>
+
+                <h3>🧨 美債到期風險</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">2025年</div>
+                        <div class="stat-label">8月中至9月底<br>美國若未提升債務上限，恐技術性違約</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6/11</div>
+                        <div class="stat-label">美國國會預算辦公室預警</div>
+                    </div>
+                </div>
+
+                <h3>🌊 美債拋售潮</h3>
+                <div class="strategy-box">
+                    <h4>2024年4月各國拋售美債舉動：</h4>
+                    <ul class="impact-list">
+                        <li>日本拋售175億美元長期美債</li>
+                        <li>中國從1.2兆降至0.76兆美元，資金轉向黃金或其他貨幣避險</li>
+                        <li>俄羅斯也有拋售美債舉動</li>
+                        <li>預示美元資產吸引力下降</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="public-opinion" class="section">
+            <div class="section-header">
+                <h2>📉 川普政策遭遇國內民意反彈與抗爭浪潮</h2>
+                <div class="subtitle">美國國內反對聲浪與抗議活動</div>
+            </div>
+            <div class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">49%</div>
+                        <div class="stat-label">美國消費者支持川普關稅政策<br>（歷史新低）</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50州</div>
+                        <div class="stat-label">都有示威活動</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2000名</div>
+                        <div class="stat-label">加州出動國民兵維穩</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>📉 根據新聞與民調整理：</h3>
+                    <ul class="impact-list">
+                        <li>美國消費者支持川普關稅政策跌破五成，來到歷史新低（僅49%支持）</li>
+                        <li>高關稅 + 通膨 = 民怨四起，「無王日」抗議活動全美爆發</li>
+                        <li>抗爭規模：50州都有示威，加州出動2000名國民兵維穩</li>
+                    </ul>
+                </div>
+
+                <h3>🇺🇸 大而美法案通過後對局勢的可能影響</h3>
+                <div class="strategy-box">
+                    <h4>🎯 政策核心（依簡報語境推估）：</h4>
+                    <ul class="impact-list">
+                        <li>擴大關稅與保護主義（特別針對中國、墨西哥、東南亞）</li>
+                        <li>強化美國製造回流（Bring jobs back）</li>
+                        <li>削減企業稅或大規模基建支出</li>
+                        <li>強美元 or 弱美元策略依出口導向調整</li>
+                    </ul>
+                </div>
+
+                <h3>🌍 對全球局勢的三大影響</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">1️⃣</div>
+                        <div class="stat-label">全球供應鏈更進一步重組<br>美國企業將更有誘因「回流」</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2️⃣</div>
+                        <div class="stat-label">通膨與利率難下降<br>關稅提高→進口成本上升→商品價格上漲</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3️⃣</div>
+                        <div class="stat-label">美元地位短期強勢、長期動搖<br>資金短期回流美國，但長期霸權地位會逐步鬆動</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trump-challenges" class="section">
+            <div class="section-header">
+                <h2>📉 川普目標不易成功，年底前勢必要有交代</h2>
+                <div class="subtitle">三大挑戰讓川普難以全盤勝出</div>
+            </div>
+            <div class="section-content">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">1️⃣</div>
+                        <div class="stat-label">國際談判不順<br>唯一談成僅有英國，歐盟、日本、中國等仍處僵局</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2️⃣</div>
+                        <div class="stat-label">國內問題重重<br>美國債務危機、通膨壓力、民意反彈、法律戰延燒</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3️⃣</div>
+                        <div class="stat-label">地緣政治持續衝突<br>俄烏戰爭、以哈衝突尚未平息，地緣不確定性高</div>
+                    </div>
+                </div>
+
+                <div class="highlight-box">
+                    <h3>📉 總結判斷：川普的目標不易成功</h3>
+                    <ul class="impact-list">
+                        <li>美國目標是短期內與75國及中歐完成談判 → 難度極高</li>
+                        <li>2026年期中選舉將近，川普面臨內外壓力需加快成果</li>
+                        <li>葉總判斷：「年底前勢必會製造一個可視化成果」以展現強勢形象</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="conclusion">
+            <h3>🎯 房市總結觀點</h3>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">🔺</div>
+                    <div class="stat-label">關貿戰後續走向仍需觀察<br>國際貿易緊張尚未解除</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">🌍</div>
+                    <div class="stat-label">地緣政治衝突不斷<br>影響資金流動與避險需求</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">📈</div>
+                    <div class="stat-label">歷次房市週期都是「大漲小回」<br>房價修正有限，長期穩定成長</div>
+                </div>
+            </div>
+
+            <div class="highlight-box">
+                <h3>💡 核心結論</h3>
+                <p><strong>房地產是資產保值、資金最佳避風港</strong></p>
+                <p>在高風險的國際環境中，房地產仍是最穩健的資產配置選項。</p>
+                <p>即便外部環境多變，房市表現仍具韌性與抗跌性。</p>
+            </div>
+
+            <div class="strategy-box">
+                <h4>🧠 對房仲業的啟示</h4>
+                <p><strong>房仲業為「輕資產」，最能彈性應對市場</strong></p>
+                <p>不需重資本投入即可經營，具高度市場適應力。</p>
+                <p>面對震盪，只要：</p>
+                <ul class="impact-list">
+                    <li>掌握時勢（緊跟趨勢）</li>
+                    <li>善用時勢（找準切點）</li>
+                    <li>順勢而為（快狠準行動）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top">↑</a>
+
+    <script>
+        // 平滑滾動到錨點
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 回到頂部按鈕
+        const backToTop = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        // 添加滾動動畫
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html> 
